@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پەتای ڤایرۆسی کۆڕۆنا - جیهان و ئێڕاق</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery-3.4.1.js"></script>
+</head>
+<body class="text-center">
+
+    <br />
+
+    <h1 class="display-4">
+        جیهان و ئێڕاق
+    </h1>
+
+    <br />
+
+    <h1>
+        لە جیهان
+    </h1>
+
+    <br />
+
+    <button id="world-cases" class="btn btn-warning data c">{{data}} تووشبوون</button>
+    <button id="world-deaths" class="btn btn-danger data d">{{data}} مردن</button>
+    <button id="world-recovered" class="btn btn-success data r">{{data}} چاکبوونەوە</button>
+    
+    <br />
+
+    <h1>
+        لە ئێڕاق
+    </h1>
+
+    <br />
+
+    <button id="Iraq-cases" class="btn btn-warning data c">{{data}} تووشبوون</button>
+    <button id="Iraq-deaths" class="btn btn-danger data d">{{data}} مردن</button>
+    <button id="Iraq-recovered" class="btn btn-success data r">{{data}} چاکبوونەوە</button>
+    
+    <br />
+
+    <h1>
+        لە ئێڕاق (ئەمڕۆ)
+    </h1>
+
+    <br />
+
+    <button id="Iraq-todayCases" class="btn btn-warning data c">{{data}} تووشبوون</button>
+    <button id="Iraq-todayDeaths" class="btn btn-danger data r">{{data}} مردن</button><br />
+
+    <h1>
+        زیاتر
+    </h1>
+
+    <a href="wilatani_dirawse/index.html">وڵاتانی دراوسێ</a>
+    <br />
+    <a href="ewrupa/index.html">ئەوروپا</a>
+    <br />
+    <a href="asya/index.html">ئاسیا</a>
+    <br />
+    <a href="emrikay_bakur/index.html">ئەمریکای باکوور</a>
+
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <script>
+        world();
+        country("Iraq");
+    </script>
+</body>
+</html>

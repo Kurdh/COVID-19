@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>پەتای ڤایرۆسی کۆڕۆنا - وڵاتانی دراوسێ</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="text-center">
+
+    <br />
+
+    <h1 class="display-4">
+        وڵاتانی دراوسێ
+    </h1>
+
+    <br />
+
+    <h1>
+        لە ئێران
+    </h1>
+
+    <br />
+
+    <button id="Iran-cases" class="btn btn-warning data c">{{data}} تووشبوون</button>
+    <button id="Iran-deaths" class="btn btn-danger data d">{{data}} مردن</button>
+    <button id="Iran-recovered" class="btn btn-success data r">{{data}} چاکبوونەوە</button>
+    
+    <br />
+
+    <h1>
+        لە ئێران (ئەمڕۆ)
+    </h1>
+
+    <br />
+
+    <button id="Iran-todayCases" class="btn btn-warning data c">{{data}} تووشبوون</button>
+    <button id="Iran-todayDeaths" class="btn btn-danger data r">{{data}} مردن</button><br />
+
+    <br />
+
+    <h1>
+        لە عەرەبستانی سعودیە
+    </h1>
+
+    <br />
+
+    <button id="Saudi-cases" class="btn btn-warning data c">{{data}} تووشبوون</button>
+    <button id="Saudi-deaths" class="btn btn-danger data d">{{data}} مردن</button>
+    <button id="Saudi-recovered" class="btn btn-success data r">{{data}} چاکبوونەوە</button>
+    
+    <br />
+    
+    <h1>
+        لە عەرەبستانی سعودیە (ئەمڕۆ)
+    </h1>
+    
+    <br />
+
+    <button id="Saudi-todayCases" class="btn btn-warning data c">{{data}} تووشبوون</button>
+    <button id="Saudi-todayDeaths" class="btn btn-danger data r">{{data}} مردن</button>
+    
+    <br />
+
+    <h1>
+        لە تورکیا
+    </h1>
+
+    <br />
+
+    <button id="Turkey-cases" class="btn btn-warning data c">{{data}} تووشبوون</button>
+    <button id="Turkey-deaths" class="btn btn-danger data d">{{data}} مردن</button>
+    <button id="Turkey-recovered" class="btn btn-success data r">{{data}} چاکبوونەوە</button>
+    
+    <br />
+    
+    <h1>
+        لە تورکیا (ئەمڕۆ)
+    </h1>
+    
+    <br />
+
+    <button id="Turkey-todayCases" class="btn btn-warning data c">{{data}} تووشبوون</button>
+    <button id="Turkey-todayDeaths" class="btn btn-danger data r">{{data}} مردن</button>
+    
+    <br />
+
+    <h1>
+        زیاتر
+    </h1>
+
+    <a href="../index.html">جیهان و ئێڕاق</a>
+    <br />
+    <a href="../ewrupa/index.html">ئەوروپا</a>
+    <br />
+    <a href="../asya/index.html">ئاسیا</a>
+    <br />
+    <a href="../emrikay_bakur/index.html">ئەمریکای باکوور</a>
+
+    <script src="../js/jquery-3.4.1.js"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/app.js"></script>
+
+    <script>
+        country("Iran");
+        country("Saudi");
+        country("Turkey");
+    </script>
+</body>
+</html>

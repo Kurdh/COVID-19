@@ -1,0 +1,38 @@
+* {
+    outline: none;
+    font-family: 'Bahij TheSansArabic' !important;
+}
+
+@font-face {
+    font-family: 'Bahij TheSansArabic';
+    src: url("../font.ttf");
+}
+
+body {
+    background-color: #17202a;
+}
+
+h1 {
+    color: #fff;
+}
+
+button.data {
+    width: 200px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button.c {
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+button.r {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+button.d {
+    border-radius: 0;
+}
