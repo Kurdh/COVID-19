@@ -1,5 +1,5 @@
 function world() {
-    $.getJSON("https://corona.lmao.ninja/all", function(data) {
+    $.getJSON("https://corona.lmao.ninja/v2/all", function(data) {
         var cases = data.cases;
         var deaths = data.deaths;
         var recovered = data.recovered;
@@ -11,7 +11,7 @@ function world() {
 }
 
 function country(cn) {
-    $.getJSON("https://corona.lmao.ninja/countries/" + cn, function(data) {
+    $.getJSON("https://corona.lmao.ninja/v2/countries/" + cn, function(data) {
         var cases = data.cases;
         var deaths = data.deaths;
         var recovered = data.recovered;
